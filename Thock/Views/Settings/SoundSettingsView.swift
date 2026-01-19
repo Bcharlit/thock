@@ -151,6 +151,18 @@ struct SoundSettingsView: View {
                         .padding(.horizontal, 10)
                         .padding(.vertical, 8)
                     }
+                    Spacer()
+                    VStack(spacing: 0) {
+                        HStack(alignment: .center) {
+                            Text("Set Favorites")
+                                .font(.system(size: 13))
+                                .foregroundColor(.primary)
+                            
+                            Spacer()
+                        }
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 8)
+                    }
                 }
                 
                 SettingsSectionView(title: L10n.performance) {
